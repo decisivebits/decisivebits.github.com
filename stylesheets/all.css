@@ -1,0 +1,115 @@
+body {
+  line-height: 22px;
+  margin: 0;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Droid Sans", "Liberation Sans", "Bitstream Vera Sans", sans-serif;
+}
+
+.code, aside {
+  font-family: Menlo, Monaco, Consolas, "Lucida Sans Mono", "Droid Sans Mono", "Liberation Mono", "Bitstream Vera Sans Mono", Courier, "Courier New", monospace;
+}
+
+aside {
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgb(241,241,241);
+  color: rgb(146,146,146);
+  padding: 5px 5px 2px 12px;
+  width: 12px;
+  font-size: 12px;
+  line-height: 22px;
+  border-right: 1px solid rgb(179,179,179);
+  text-align:right;
+}
+
+div.content {
+  position: absolute;
+  top: 0;
+  left: 40px;
+  white-space: nowrap;
+  margin-top: 5px;
+}
+
+header, h1, h2, p {
+  margin: 0;
+  padding: 0;
+  font-size: 14px;
+  font-weight: normal;
+}
+
+h1, h2 {
+  color: rgb(0,128,0);
+}
+
+span.darkcyan {
+  color: rgb(38,71,75);
+}
+
+span.cyan {
+  color: rgb(43,131,159);
+}
+
+span.darkpurple {
+  color: rgb(46,13,110);
+}
+
+span.purple {
+  color: rgb(170,13,145);
+}
+
+span.red {
+  color: rgb(163,21,21);
+}
+
+span.brown {
+  color: rgb(100,56,32);
+}
+
+#caret {
+  width: 0px;
+  height: 18px;
+  margin-top:2px;
+  border-left: 1px solid #000;
+}
+
+#ribbon {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+
+#ribbon a {
+  width: 149px;
+  height: 149px;
+  display: block;
+}
+
+#ribbon a img {
+  border: 0;
+}
+
+footer {
+  font-family: Helvetica, Arial, sans-serif;
+  margin-top: 20px;
+  font-size: 14px;
+}
+
+footer a {
+  display: block;
+  color: #888;
+  text-decoration: none;
+  margin-bottom: 5px;
+}
+
+footer p.also {
+  color: #aaa;
+  margin-top: 10px;
+  font-size: 12px;
+}
+
+#fblike iframe {
+  border: none;
+  overflow: hidden;
+  width: 110px;
+  height: 21px;
+}
